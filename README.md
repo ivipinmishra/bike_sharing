@@ -1,5 +1,5 @@
 # Bike Sharing Prediction Model
-> Outline a brief description of your project.
+> This assignment is a programming assignment wherein you have to build a multiple linear regression model for the prediction of demand for shared bikes.
 
 
 ## Table of Contents
@@ -8,45 +8,40 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+- A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
+- I am required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
+- The company wants to know:
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+-- Which variables are significant in predicting the demand for shared bikes.
+-- How well those variables describe the bike demands
+Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Fall season has highest demand for rental bikes
+- September month has highest demand
+- Demand is increasing till June and decreasing after September
+- Clear weathershit has highest demand 
+- Booking is almost same for working and non-working days.
+- Demand increased in 2019 in-comparison to 2019
+- Based on the final model, temp, sep and yr are the top 3 features contributing significantly towards explaining the demand of the shared bikes
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- pandas
+- matplotlib
+- seaborn
+- sklearn
+- statsmodels
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by Upgrad AI-ML Journey.
+- Reference: https://upgrad.com/
+- This project was based on [Upgrad AI-ML Linear Regression Course](https://upgrad.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@v181080] - feel free to contact me!
